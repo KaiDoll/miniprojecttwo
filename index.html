@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Mini Project 2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+
+  <body>
+
+    <header>
+      CSS Snippet Cheat Sheet
+  </header>
+  
+  <h1 class="headerp">
+    Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! 
+      Select any snippet below and it'll automatically select all of the code for you to copy. 
+  </h1>
+
+    <div class="main">
+    <div class="tables">
+      <div class="table1">
+        <smallbox class="table2">Flexbox Row</smallbox>
+        <defi class="midp"><pre>
+
+
+    Use these three properties to 
+    create a Flexbox row layout.
+  
+  </pre></defi>
+    <inside class="table3"><code>
+      <pre>.row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    </pre></code></inside>
+      </div>
+      
+      <div class="table1">
+        <smallbox class="table2">Flexbox Column</smallbox>
+        <defi class="midp"><pre>
+
+
+    Use this to create a Flexbox 
+    column layout.
+  
+  </pre></defi>
+    <inside class="table3"><code>
+      <pre>.column {
+        display: flex;
+        flex-direction: column
+      }
+    </pre></code></inside>
+      </div>
+      <div class="table1">
+        <smallbox class="table2">CSS Grid Layout</smallbox>
+        <defi class="midp"><pre>
+
+
+          Build a 12-column layout 
+          using CSS Grid.
+  
+  </pre></defi>
+    <inside class="table3"><code>
+      <pre>.grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 
+        repeat(12, 1fr);
+      }
+    </pre></code></inside>
+  </div>
+      <div class="table1">
+        <smallbox class="table2">Linear Gradients</smallbox>
+        <defi class="midp"><pre>
+
+
+      This will create a background 
+      linear gradient from top to bottom.
+  
+  </pre></defi>
+    <inside class="table3"><code>
+      <pre>
+        .linear-gradient-background {
+        background-image: 
+        linear-gradient(
+          rgba(232, 102, 236, 0.3) 0%,
+          rgba(232, 102, 236, 0.6) 100%
+        );
+      }
+    </pre></code></inside>
+      </div>
+      <div class="table1"><smallbox class="table2">Box Transition Glow</smallbox>
+        <defi class="midp"><pre>
+
+
+          Use transition and box 
+          shadows to glow on hover.
+   </pre></defi>
+    <inside class="table3"><code>
+      <pre>
+        .code-card .card-header {
+          border-radius: 8px;
+          transition: all 0.5s ease-in-out;
+        }
+        .code-card:hover,
+        .code-card:hover .card-header {
+          box-shadow: inset 0px 0px 8px 
+          rgba(232, 102, 236, 1), 0 0 15px 
+          rgba(232, 102, 236, 1);}
+    </pre></code></inside></div>
+      <div class="table1"><smallbox class="table2">Overlay Card w/Title</smallbox>
+        <defi class="midp"><pre>
+
+
+          Use position properties and 
+          negative margins to raise 
+          elements higher than their 
+          natural starting point.
+   </pre></defi>
+    <inside class="table3"><code>
+      <pre>
+        .card-header {
+          position: relative;
+          margin-top: -20px;
+        }
+    </pre></code></inside></div>
+    </div>
+    </div>
+
+    <div class="footer">
+      <h2>Made with ❤️️ and CSS</h2>
+  </div>
+</body>
+</html>

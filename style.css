@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+    background-color: papayawhip;
+  }
+
+  header {
+    font-weight: bold;
+    font-family: century gothic;
+    font-size: 30px;
+    margin: 2%;
+    text-align: center;
+    color: plum;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    color: rgb(114, 102, 114);
+  }
+
+  .h2 {
+    font-size: 25px;
+    font-family: century gothic;
+    font-weight: bold;
+    text-align: left;
+    margin: 1%;
+    color: rgb(114, 100, 114);
+  }
+
+  .h3 {
+    font-size: 15px;
+    font-family: century gothic;
+    text-align: left;
+    margin: 1%;
+    color: rgb(114, 95, 114);
+  }
+ 
+  .main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+  .tables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .table1 {
+    min-width: 420px;
+    height: 400px;
+    padding: 2%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  outline: 3px dashed;
+  border-color: rgb(194, 167, 185);
+  font-weight: bold;
+  color: rgb(88, 121, 121);
+  text-align: left;
+}
+
+  .table2 {
+    position: relative;
+    padding: 0.5rem 1rem;
+    background-color: rgb(231, 204, 204);
+    border: 2px solid ;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    font-size: 35px;
+    font-family: century gothic;
+    font-weight: bold;
+    color: rgb(114, 100, 114);
+    padding: 20px;
+    margin-left: 45px;
+  }
+  
+  .table3 {
+    background: linear-gradient(#f1e1eb, #d3f4fc);
+    border: 2px solid ;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(194, 167, 185);
+    color: rgb(114, 100, 114);
+    padding: 10px;
+  font-size: 16px;
+  display: flex;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: century gothic;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+  color: rgb(194, 167, 185);
+}
+
+.headerp {
+  flex-wrap: wrap;
+  display:flex;
+}
+
+@media screen and (hover: hover) {
+  .table1:hover { 
+    color: black;
+    background: rgb(240, 240, 232);
+}
+}
+.midp {
+  padding: 10px;
+  font-size: 16px;
+}
+
